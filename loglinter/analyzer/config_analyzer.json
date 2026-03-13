@@ -1,0 +1,10 @@
+{
+  "sensitive_words": [
+    "password",
+    "api_key",
+    "token",
+    "secret",
+    "jwt",
+    "sessionid"
+  ]
+}
