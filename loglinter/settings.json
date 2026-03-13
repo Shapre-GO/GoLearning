@@ -1,0 +1,21 @@
+{
+  "languages": {
+    "Go": {
+      "language_servers": ["gopls"],
+      "format_on_save": "on",
+    },
+  },
+  "lsp": {
+    "gopls": {
+      "initialization_options": {
+        "usePlaceholders": true,
+      },
+    },
+  },
+  "formatter": {
+    "external": {
+      "command": "gofmt",
+      "arguments": ["-w", "{buffer_path}"],
+    },
+  },
+}
