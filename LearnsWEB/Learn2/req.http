@@ -1,0 +1,22 @@
+### ВЫПОЛНИТЬ КОМАНДУ В КОНСОЛИ: httprunner req.http --verbose
+
+### Главная
+GET http://localhost:8080/
+
+### Логин
+POST http://localhost:8080/login
+Content-Type: application/json
+
+{
+  "email": "test@test.com",
+  "password": "123456"
+}
+
+### Регистрация
+POST http://localhost:8080/register
+Content-Type: application/json
+
+{
+  "email": "new@test.com",
+  "password": "pass123"
+}
